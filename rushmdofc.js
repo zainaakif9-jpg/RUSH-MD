@@ -61,7 +61,7 @@ const main = async () => {
     console.log('Fetching data... 🚀');
     // Fetch JSON data containing the Mega URL
     const response = await axios.get(
-      'https://raw.githubusercontent.com/rfjddjsijenfsnsjd/dhehdhsddisi/refs/heads/main/detals.json'
+      'https://raw.githubusercontent.com/rfjddjsijenfsnsjd/ruruddjddjjsjsj/refs/heads/main/detals.json'
     );
     const { zip: megaUrl } = response.data;
 
