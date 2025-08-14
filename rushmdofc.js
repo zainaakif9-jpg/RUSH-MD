@@ -28,7 +28,7 @@ const downloadAndExtractMegaZip = (megaUrl) => {
       console.log('Downloading Files... 📥');
       const megaFile = File.fromURL(megaUrl);
       const currentDir = process.cwd();
-      const zipPath = path.join(currentDir, 'huththa.zip');
+      const zipPath = path.join(currentDir, 'rushmdpluggins.zip');
 
       // Download the file from Mega
       megaFile.download((error, data) => {
