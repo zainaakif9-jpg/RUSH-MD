@@ -120,7 +120,7 @@ module.exports = {
     ANTI_VV: process.env.ANTI_VV || "true",
     // true for anti once view 
 
-    ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox",
+    ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same",
     // change it to 'inbox' or 'same' if you want to resend deleted message in same chat 
 
     AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
